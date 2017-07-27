@@ -5,5 +5,5 @@ class Singleton private constructor() {
     companion object {
         val instance: Singleton by lazy { Singleton() }
     }
-    var b:String? = null
+    var prop:String? = null
 }
