@@ -6,7 +6,7 @@ import DecoratorPattern.RunnerDecorator
  * Created by azisuazusa on 7/22/17.
  */
 fun main(args: Array<String>) {
-    
+
 }
 
 fun builderPattern() {
