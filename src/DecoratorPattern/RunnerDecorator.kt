@@ -9,7 +9,7 @@ class RunnerDecorator(personInterface: PersonInterface) : Decorator(personInterf
     }
 
     override fun walk() {
-        personInteface.walk()
+        personInterface.walk()
         grantRunSkill()
     }
 }

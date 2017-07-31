@@ -8,7 +8,7 @@ import SingletonPattern.Singleton
  * Created by azisuazusa on 7/22/17.
  */
 fun main(args: Array<String>) {
-
+    
 }
 
 fun singletonPattern() {
@@ -26,6 +26,6 @@ fun builderPattern() {
 fun decoratorPattern() {
     val runner = Runner()
     runner.walk()
-    val runnerSkill: PersonInterface = RunnerDecorator(runner)
+    val runnerSkill = RunnerDecorator(runner)
     runnerSkill.walk()
 }
