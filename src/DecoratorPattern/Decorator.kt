@@ -2,8 +2,7 @@ package DecoratorPattern
 /**
  * Created by azisuazusa on 7/21/17.
  */
-abstract class Decorator(personInterface: PersonInterface) : PersonInterface {
-    protected var personInterface: PersonInterface = personInterface
+abstract class Decorator(protected val personInterface: PersonInterface) : PersonInterface {
     override fun walk(){
 
     }
